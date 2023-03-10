@@ -1,35 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lab 1</title>
+  </head>
+  <body>
+    <h1>Lab 1</h1>
 
-   <script>
-		// Nhập vào 2 số nguyên a, b từ bàn phím. (sử dụng prompt)
-		var a = parseInt(prompt("Nhập số nguyên a: "));
-		var b = parseInt(prompt("Nhập số nguyên b: "));
+    <script src="app.js"></script>
 
-		// Tính tổng c của a và b (c = a + b)
-		var c = a + b;
+    <script>
+      // Yêu cầu người dùng nhập số nguyên d từ bàn phím
+      let d = parseInt(prompt("Nhập số nguyên d: "));
 
-		// In ra kết quả đồng thời bằng 2 cách: document.write và console.log
-		document.write("Tổng của a và b là: " + c);
-		console.log("Tổng của a và b là: " + c);
+      // Tính tổng của c và d
+      let result = c + d;
 
-		// Nhập vào 1 số nguyên d từ bàn phím.
-		var d = parseInt(prompt("Nhập số nguyên d: "));
-
-		// Tính tổng result của c và d (result = c + d)
-		var result = c + d;
-
-		// In ra kết quả đồng thời bằng 2 cách: alert và console.log
-		alert("Tổng của a, b và d là: " + result);
-		console.log("Tổng của a, b và d là: " + result);
-	</script>
-
-</body>
+      // In ra kết quả bằng phương thức alert và console.log
+      alert("Tổng của " + c + " và " + d + " là " + result);
+      console.log("Tổng của " + c + " và " + d + " là " + result);
+    </script>
+  </body>
 </html>
