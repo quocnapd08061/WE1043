@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Lab 1</title>
-  </head>
-  <body>
-    <h1>Lab 1</h1>
-
-    <script src="app.js"></script>
-
-    <script>
-      // Yêu cầu người dùng nhập số nguyên d từ bàn phím
-      let d = parseInt(prompt("Nhập số nguyên d: "));
-
-      // Tính tổng của c và d
-      let result = c + d;
-
-      // In ra kết quả bằng phương thức alert và console.log
-      alert("Tổng của " + c + " và " + d + " là " + result);
-      console.log("Tổng của " + c + " và " + d + " là " + result);
-    </script>
-  </body>
+<head>
+	<title>Máy tính đơn giản</title>
+	<style>
+		.button {
+			background-color: #4CAF50;
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<input type="text" id="num1" name="num1" placeholder="Số thứ nhất">
+		<input type="text" id="num2" name="num2" placeholder="Số thứ hai">
+		<select id="operator" name="operator">
+			<option value="add">Cộng</option>
+			<option value="subtract">Trừ</option>
+			<option value="multiply">Nhân</option>
+			<option value="divide">Chia</option>
+		</select>
+		<button class="button" type="button" onclick="calculate()">Tính toán</button>
+		<p>Kết quả: <span id="result"></span></p>
+	</form>
+	
+	<script>
+		function calculate() {
+			var num1 = parseInt(document.getElementById("num1").value);
+			var num2 = parseInt(document.getElementById("num2").value);
+			var operator = document.getElementById("operator").value;
+			var result;
+			
+			if (operator == "add") {
+				result = num1 + num2;
+			} else if (operator == "subtract") {
+				result = num1 - num2;
+			} else if (operator == "multiply") {
+				result = num1 * num2;
+			} else if (operator == "divide") {
+				result = num1 / num2;
+			}
+			
+			document.getElementById("result").innerHTML = result;
+		}
+	</script>
+</body>
 </html>

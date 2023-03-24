@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;      
+}
+body{
+    background-color: blue ;  
+} 
+.container{
+    margin:  40px auto ;
+    width: 200px;
+}
+
+.screen{
+    background-color: aliceblue;
+    width: 200px;
+    height: 80px;
+    position: relative;
+
+}
+.keyboard{
+    width: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;     
+}
+
+.item{
+    height: 60px;
+    
+    outline: none;
+    border: 0.1px solid whitesmoke  ;
+}
+.item :hover{
+    background-color: azure;
+    cursor: pointer;
+
+}
+.item1{
+    grid-column: 1/span 2;
+    background-color: whitesmoke;
+}
+.item1:hover{
+    background-color: white  ;
+}
+.item16{
+    grid-column: 1/span 2;   
+}
+.item7{
+    background-color: orange;
+    
+}
+.item7:hover{
+    background-color: white ;
+} 
+.item11{
+    background-color: orange;
+    
+}
+.item11:hover{
+    background-color: white ;
+} 
+.item15{
+    background-color: orange;
+    
+}
+.item15:hover{
+    background-color: white ;
+} 
+.item18{
+    background-color: orange;
+    
+}
+.item18:hover{
+    background-color: white ;
+} 
+.item3{
+    background-color: orange;
+    
+}
+.item3:hover{
+    background-color: white ;
+} 
+.screen .input{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 40px;
+    color:  black;
+    z-index: 222;
+}
+
+  
