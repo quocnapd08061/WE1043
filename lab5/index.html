@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="task-list"></ul>
+    <form id="add-task-form">
+        <label for="task-name"> Tên </label>
+        <input type="text" id="task-name" name="task-name" required minlength="6">
+        <label for="task-description">Nội dung:</label>
+        <textarea id="task-description" name="task-description" required minlength="21"></textarea>
+        <button type="submit">Add Task</button>
+      </form>
+      <script src="javascript.js"></script>
+</body>
+</html> 

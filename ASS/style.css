@@ -1,0 +1,165 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.banner h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.banner p {
+  font-size: 16px;
+  margin: 0;
+  color: #999;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 16px;
+}
+
+/* Slider styles */
+.slider-container {
+  position: relative;
+}
+
+.slider {
+  display: flex;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
+.slider-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+}
+
+.slider-controls button {
+  background-color: transparent;
+  border: none;
+  font-size: 50px;
+  color: #999;
+  cursor: pointer;
+}
+.next-slide{
+  margin-left :700px;
+}
+
+.slider-controls button:hover {
+  color: #333;
+}
+
+.prev-slide {
+  margin-right: 20px;
+}
+
+/* Main content styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #444;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content ul {
+  display: flex;
+}
+
+.footer-content li {
+  margin-right: 20px;
+}
+
+.footer-content a {
+  color: #fff;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 14px;
+}

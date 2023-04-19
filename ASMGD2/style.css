@@ -47,8 +47,6 @@ html {
   letter-spacing: 1px;
 }
 
-
-
 .menu-list:hover a{
   border-bottom: 1px solid #fff;
   color: white;
@@ -183,8 +181,6 @@ strike{
   text-align: left;
   margin-right: 200px;
 }
-
-
   
 .img{
     box-align: left;
@@ -197,7 +193,9 @@ a{
     color: white;
     font-size: 20px;
 } 
-footer {
+
+
+section {
   margin-bottom: 40px;
 }
 
@@ -233,4 +231,21 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
   background-color: #444;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content ul {
+  display: flex;
 }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <h1> Rôn Store </h1>
+        <p> Uy tín giá rẻ chất lượng hãy đến với chúng tôi</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#">Sản phẩm</a></li>
+          <li><a href="#">Dịch vụ</a></li>
+          <li><a href="#">Liên hệ</a></li>
+        </ul>
+        <br>
+        <div class="user">
+          <ul>
+            <li> <a href="#">Đăng nhập</a></li>
+            <li> <a href="#">Đăng ký </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="slider-container">
+        <div class="slider">
+          <img src="img/iphone-13-product-red-xtmobile_3.jpg" alt="Slider 1">
+          <img src="img/iPhone-14-Pro-Max-3.jpg" alt="Slider 2">
+          <img src="img/th.jpg" alt="Slider 3">
+        </div>
+        <div class="slider-controls">
+          <button class="prev-slide">&lt;</button>
+          <button class="next-slide">&gt;</button>
+        </div>
+      </div>
+      <section>
+        <h2>Giới thiệu về Rôn Store </h2>
+        <p> Shop uy tín giá rẻ và chất lượng nhất Đà Nẵng </p>
+      </section>
+      <section>
+        <h2>Sản phẩm và dịch vụ</h2>
+        <p>Chúng tôi cung cấp rất nhiều sản phẩm và dịch vụ. Hãy đến với chúng tôi để trải nghiệm những điều tuyệt vời nhất.</p>
+      </section>
+      <section>
+        <h2>Liên hệ với chúng tôi</h2>
+        <p>Chúng tôi luôn sẵn sàng để giải đáp mọi thắc mắc của bạn. Hãy liên hệ với chúng tôi bất cứ lúc nào.</p>
+        <form>
+          <label for="name">Họ tên:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="phone">Số điện thoại:</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10,11}" required>
+          <button type="submit">Gửi</button>
+        </form>
+      </section>
+
+      <div id="countdown-clock">
+        <h2>Thời gian còn lại đến sự kiện quan trọng</h2>
+        <div>
+          <span id="days"></span>
+          <div class ="label">Ngày</div>
+        </div>
+        <div>
+        <span id="hours"></span>
+        <div class="label">Giờ</div>
+        </div>
+        <div>
+        <span id="minutes"></span>
+        <div class="label">Phút</div>
+        </div>
+        <div>
+        <span id="seconds"></span>
+        <div class="label">Giây</div>
+        </div>
+        </div>
+        </main>
+        <footer>
+          <div class="footer-content">
+            <ul>
+              <li><a href="#">Trang chủ</a></li>
+              <li><a href="#">Sản phẩm</a></li>
+              <li><a href="#">Dịch vụ</a></li>
+              <li><a href="#">Liên hệ</a></li>
+            </ul>
+            <p>© 2023 103 Nguyễn Lương Bằng . Rôn Store </p>
+          </div>
+        </footer>
+        
+        <script src="script.js"></script>
+      </body>
+      
+      </html>    
+      
+          
